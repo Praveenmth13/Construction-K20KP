@@ -1,0 +1,268 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Century Gothic;
+    
+    }
+
+    ul
+{
+	text-align:center;
+	list-style-type: none;
+}
+ ul li
+{
+	display: inline-block;
+	list-style: none;
+	color: #fff;
+	margin-top: 20px;	
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 40px;
+	border: 1px solid #fff transparent;	
+	
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+	transition: 0.15s ease;
+}
+.fa
+{
+	margin-right: 7px;
+}
+    
+    .main{
+    width: 50%;
+    background:rgba(0,0,0,.7);
+    color:#ffffff;
+    text-align:center;
+    padding: 50px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    }
+    .team{
+    width: 96.5%;
+    background:rgba(3, 3, 3, 0.911);
+    color:#ffffff;
+    text-align:left;
+    padding: 50px;
+    position:absolute;
+    top:100%;
+    left:48.5%;
+    transform: translate(-50%,-50%);
+    }
+    .img{
+    padding:50px;
+    position:absolute;
+    top:140%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    }
+    .img-box
+    {
+    width:13.5%;
+    height :4%;
+    background:rgb(0,0,0,.7);
+    color:#ffffff;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:168%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    }
+    .img2{
+    padding:50px;
+    position:absolute;
+    top:140%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    }
+    .img2-box
+    {
+    width:13.5%;
+    height :4%;
+    background:rgb(0,0,0,.7);
+    color:#ffffff;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:168%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    }
+    .img3{
+    padding:50px;
+    position:absolute;
+    top:140%;
+    left:80%;
+    transform:translate(-50%,-50%);
+    }
+    .img3-box
+    {
+    width:13.5%;
+    height :4%;
+    background:rgb(0,0,0,.7);
+    color:#ffffff;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:168%;
+    left:80%;
+    transform:translate(-50%,-50%);
+    }
+    .service{
+    width: 96.5%;
+    background:rgba(3, 3, 3, 0.911);
+    color:#ffffff;
+    text-align:left;
+    padding: 50px;
+    position:absolute;
+    top:200%;
+    left:48.5%;
+    transform: translate(-50%,-50%);
+    }
+    .interior
+    {
+    padding:50px;
+    position:absolute;
+    top:250%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    }
+    .interior-box
+    {
+    width :13.3%;
+    height :-10%;
+    background:rgba(148, 141, 141, 0.7);
+    color:#ffffff;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:277%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    }
+    .doubleinterior-box
+    {
+    width :13.3%;
+    height :-10%;
+    background:rgb(236, 236, 236);
+    color:#312d2d;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:277%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    }
+    .homebuilding
+    {
+    padding:50px;
+    position:absolute;
+    top:250%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    }
+    .homebuilding-box
+    {
+    width :13.3%;
+    height :-10%;
+    background:rgba(148, 141, 141, 0.7);
+    color:#ffffff;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:277%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    }
+    .doublebuilding-box
+    {
+    width :13.3%;
+    height :-10%;
+    background:rgb(236, 236, 236);
+    color:#312d2d;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:277%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    }
+    .consulting
+    {
+    padding:50px;
+    position:absolute;
+    top:250%;
+    left:80%;
+    transform:translate(-50%,-50%);
+    }
+    .consulting-box
+    {
+    width :13.3%;
+    height :-10%;
+    background:rgba(148, 141, 141, 0.7);
+    color:#ffffff;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:277%;
+    left:80%;
+    transform:translate(-50%,-50%);
+    }
+    .doubleconsulting-box
+    {
+    width :13.3%;
+    height :-10%;
+    background:rgb(236, 236, 236);
+    color:#312d2d;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:277%;
+    left:80%;
+    transform:translate(-50%,-50%);
+    }
+    .architechture
+    {
+    padding:50px;
+    position:absolute;
+    top:320%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    }
+    .architechture-box
+    {
+    width :13.3%;
+    height :-10%;
+    background:rgba(148, 141, 141, 0.7);
+    color:#ffffff;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:347%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    }
+    .doublearchitechture-box
+    {
+    width :13.3%;
+    height :-10%;
+    background:rgb(236, 236, 236);
+    color:#312d2d;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    top:347%;
+    left:20%;
+    transform:translate(-50%,-50%);
+    }
