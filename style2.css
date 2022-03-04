@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Century Gothic;
+}
+header
+{
+	background-image: url(../pk.jpg);
+	height: 100vh;
+	position: fixed;
+	align-items: center;
+	left: 0;
+	right: 0;
+	background-size: cover;
+	background-position: center center;
+	filter: blur(5px);
+
+}
+ul
+{
+	position: relative;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+ul li
+{
+	position: relative;
+	display:inline-block;
+	list-style: none;
+	margin-top: 25px;
+}
+ul li a
+{
+	position: relative;
+	text-decoration: none;
+	margin: 0 15px;
+	color: #fff;
+	letter-spacing: 2px;
+	padding: 10px 40px;
+	
+}
+ul li a:hover
+{
+	background-color: #fff;	
+	color:#000;
+	transition: 0.15s ease;
+	
+}
+.fa
+{
+	margin-right: 7px;
+}
+.box{
+	position: absolute;
+	width:400px;
+	height:10px;
+	top:10%;
+	right:35%;
+	background:rgba(255,255,255,.2);
+	padding: 50px
+}
+h1
+{
+	position: absolute;
+	text-align: center;
+	top:10%;
+	font-family:sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: #fff;
+	font-size: 5em;
+}
+.animation-div{
+	width: 200%;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	right: 50%;
+	margin-top: 70%;
+	align-items: center;
+	background-image: url(../c4.jpg);
+	background-size: cover;
+	transform: translate(-50% , -50%);
+	box-shadow: 2px 3px 10px 5px black;
+	animation: slider 9s infinite linear;
+}
+@keyframes slider{
+	0%{ background-image: url(../c4.jpg);}
+
+	35%{ background-image: url(../c2.jpg);}
+
+	75%{ background-image: url(../c3.jpg);}
+
+	100%{ background-image: url(../1.jpg);}
+
+}
