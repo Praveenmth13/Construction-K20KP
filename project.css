@@ -1,0 +1,135 @@
+
+
+
+ul
+{
+	text-align:center;
+	list-style-type: none;
+}
+ ul li
+{
+	display: inline-block;
+	list-style: none;
+	color: #fff;
+	margin-top: 20px;	
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 40px;
+	border: 1px solid #fff transparent;	
+	
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+	transition: 0.15s ease;
+}
+.fa
+{
+	margin-right: 7px;
+}
+.box{
+    width: 30%;
+    background:rgba(248, 199, 37, 0.911);
+    color:#080808;
+    text-align:left;
+    padding: 20px;
+    position:absolute;
+    top:38%;
+    left:0%;
+    }
+    
+    
+    .up-image
+    {
+    padding:50px;
+    position:absolute;
+    top:80%;
+    left:18%;
+    transform:translate(-50%,-50%);
+    }
+    
+    .up-image2{
+    padding:50px;
+    position:absolute;
+    top:80%;
+    left:39%;
+    transform:translate(-50%,-50%);
+    }
+    .up-image3{
+    padding:50px;
+    position:absolute;
+    top:80%;
+    left:60%;
+    transform:translate(-50%,-50%);
+    }
+    .up-image4{
+    padding:50px;
+    position:absolute;
+    top:80%;
+    left:81%;
+    transform:translate(-50%,-50%);
+    }
+    .up-image5
+    {
+    padding:50px;
+    position:absolute;
+    top:120%;
+    left:18%;
+    transform:translate(-50%,-50%);
+    }
+    .box1{
+    width: 30%;
+    background:rgba(248, 199, 37, 0.911);
+    color:#080808;
+    text-align:left;
+    padding: 20px;
+    position:absolute;
+    top:145%;
+    left:0%;
+    
+    }
+    .p-image1
+    {
+    padding:50px;
+    position:absolute;
+    top:188%;
+    left:18%;
+    transform:translate(-50%,-50%);
+    }
+    .p-image2
+    {
+    padding:50px;
+    position:absolute;
+    top:188%;
+    left:39%;
+    transform:translate(-50%,-50%);
+    }
+    .p-image3
+    {
+    padding:50px;
+    position:absolute;
+    top:188%;
+    left:60%;
+    transform:translate(-50%,-50%);
+    }
+    .p-image4
+    {
+    padding:50px;
+    position:absolute;
+    top:188%;
+    left:81%;
+    transform:translate(-50%,-50%);
+    }
+    .p-image5
+    {
+    padding:50px;
+    position:absolute;
+    top:230%;
+    left:18%;
+    transform:translate(-50%,-50%);
+    }
